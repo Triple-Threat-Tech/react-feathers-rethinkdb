@@ -1,0 +1,43 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "authentication": {
+    "secret": "19397dec1ba63d0d9e2558990a9c26465a709da2c6849507419a469b95aa90364be439bf7d1749d2b4a5be1c12c1133a6e13f34fd5beabfda93f97232f7bf2952506e7f9ae24adc80365f87c69bbdd665bfed60c7535b5675b5ff9cff960a7785747c444e306a19564a3c2aaf7c463ec269d941c2fc6c5aa7b763b32f1d4af5b82680aed9345d42f3aca5a3b64aee93e2212007b6e8dd9989257262adb5b815c4885b1464734c05398521e0c6a1535f1e53b9eb783dfd489d8c6e83a47348c9c21a01a20c57cbc535de9e9d5c6ac20f940cd0f7ab572de5ff1f778eb0fed912ce5ca7101d905c0fe6834c21cc2830a2f0975b3b7967f9a796d6d9a63ca1ed29c",
+    "strategies": [
+      "jwt",
+      "local"
+    ],
+    "path": "/authentication",
+    "service": "users",
+    "jwt": {
+      "header": {
+        "type": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "subject": "anonymous",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "entity": "user",
+      "service": "users",
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  },
+  "rethinkdb": {
+    "db": "react_feathers_rethinkdb",
+    "servers": [
+      {
+        "host": "localhost",
+        "port": "28015"
+      }
+    ]
+  }
+}

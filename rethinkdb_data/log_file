@@ -1,0 +1,43 @@
+2017-04-11T13:52:04.562433000 0.042490s notice: Recursively removing directory /Users/ms/Projects/react-feathers-rethinkdb/rethinkdb_data/tmp
+2017-04-11T13:52:04.564176000 0.044265s notice: Initializing directory /Users/ms/Projects/react-feathers-rethinkdb/rethinkdb_data
+2017-04-11T13:52:04.564346000 0.044403s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/ms/Projects/react-feathers-rethinkdb/rethinkdb_data' did not already exist or is empty.)
+2017-04-11T13:52:04.564377000 0.044433s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-04-11T13:52:04.572141000 0.052199s notice: Running on Darwin 16.4.0 x86_64
+2017-04-11T13:52:04.572254000 0.052311s notice: Loading data from directory /Users/ms/Projects/react-feathers-rethinkdb/rethinkdb_data
+2017-04-11T13:52:04.687467000 0.167524s info: Automatically using cache size of 100 MB
+2017-04-11T13:52:04.687476000 0.167532s warn: Cache size does not leave much memory for server and query overhead (available memory: 932 MB).
+2017-04-11T13:52:04.687489000 0.167545s warn: Cache size is very low and may impact performance.
+2017-04-11T13:52:04.687999000 0.168055s notice: Listening for intracluster connections on port 29015
+2017-04-11T13:52:04.690156000 0.170212s notice: Listening for client driver connections on port 28015
+2017-04-11T13:52:04.690372000 0.170429s notice: Listening for administrative HTTP connections on port 8080
+2017-04-11T13:52:04.690377000 0.170433s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-04-11T13:52:04.690382000 0.170439s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-04-11T13:52:04.690384000 0.170441s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-04-11T13:52:04.690388000 0.170445s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-04-11T13:52:04.690392000 0.170449s notice: Server ready, "Matthews_MBP_qit" 8672e6d1-20c4-4cfa-9b5c-782b9a50b21f
+2017-04-11T13:52:18.198093000 13.677611s notice: Server got SIGINT from pid 52308, uid 501; shutting down...
+2017-04-11T13:52:18.199537000 13.679070s notice: Shutting down client connections...
+2017-04-11T13:52:18.200589000 13.680108s notice: All client connections closed.
+2017-04-11T13:52:18.200599000 13.680116s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-04-11T13:52:18.200960000 13.680478s notice: Storage engine shut down.
+2017-04-11T13:52:22.828875000 0.010751s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-04-11T13:52:22.835810000 0.017684s notice: Running on Darwin 16.4.0 x86_64
+2017-04-11T13:52:22.835857000 0.017730s notice: Loading data from directory /Users/ms/Projects/react-feathers-rethinkdb/rethinkdb_data
+2017-04-11T13:52:22.880947000 0.062820s info: Automatically using cache size of 100 MB
+2017-04-11T13:52:22.880958000 0.062830s warn: Cache size does not leave much memory for server and query overhead (available memory: 974 MB).
+2017-04-11T13:52:22.880972000 0.062844s warn: Cache size is very low and may impact performance.
+2017-04-11T13:52:22.884324000 0.066196s notice: Listening for intracluster connections on port 29015
+2017-04-11T13:52:22.885676000 0.067549s notice: Listening for client driver connections on port 28015
+2017-04-11T13:52:22.885811000 0.067684s notice: Listening for administrative HTTP connections on port 8080
+2017-04-11T13:52:22.887287000 0.069160s notice: Listening on cluster addresses: 127.0.0.1, 192.168.1.170, ::1, 2604:5500:2d:4f8:1c12:9de6:897d:38b4, 2604:5500:2d:4f8:485f:543:65e5:ebeb, fe80::1%1, fe80::14bf:7eaa:95e5:40c3%4, fe80::2ede:969f:e929:7cc9%10, fe80::73b2:10e3:7cd5:eac2%12, fe80::7489:443d:1525:1ad0%11, fe80::ad7e:9244:7f58:4121%13, fe80::ecc3:ccff:fe66:9dd6%8
+2017-04-11T13:52:22.888445000 0.070318s notice: Listening on driver addresses: 127.0.0.1, 192.168.1.170, ::1, 2604:5500:2d:4f8:1c12:9de6:897d:38b4, 2604:5500:2d:4f8:485f:543:65e5:ebeb, fe80::1%1, fe80::14bf:7eaa:95e5:40c3%4, fe80::2ede:969f:e929:7cc9%10, fe80::73b2:10e3:7cd5:eac2%12, fe80::7489:443d:1525:1ad0%11, fe80::ad7e:9244:7f58:4121%13, fe80::ecc3:ccff:fe66:9dd6%8
+2017-04-11T13:52:22.889951000 0.071824s notice: Listening on http addresses: 127.0.0.1, 192.168.1.170, ::1, 2604:5500:2d:4f8:1c12:9de6:897d:38b4, 2604:5500:2d:4f8:485f:543:65e5:ebeb, fe80::1%1, fe80::14bf:7eaa:95e5:40c3%4, fe80::2ede:969f:e929:7cc9%10, fe80::73b2:10e3:7cd5:eac2%12, fe80::7489:443d:1525:1ad0%11, fe80::ad7e:9244:7f58:4121%13, fe80::ecc3:ccff:fe66:9dd6%8
+2017-04-11T13:52:22.889965000 0.071837s notice: Server ready, "Matthews_MBP_qit" 8672e6d1-20c4-4cfa-9b5c-782b9a50b21f
+2017-04-11T13:52:58.915202000 36.095696s info: Table e3049cea-0e92-443f-93ea-c15fe92635c4: Starting a new Raft election for term 1.
+2017-04-11T13:52:58.915496000 36.095990s info: Table e3049cea-0e92-443f-93ea-c15fe92635c4: Added replica on this server.
+2017-04-11T13:52:58.925188000 36.105682s info: Table e3049cea-0e92-443f-93ea-c15fe92635c4: This server is Raft leader for term 1. Latest log index is 0.
+2017-04-11T13:53:08.739251000 45.919325s notice: Removing file /Users/ms/Projects/react-feathers-rethinkdb/rethinkdb_data/e3049cea-0e92-443f-93ea-c15fe92635c4
+2017-04-11T13:53:08.739263000 45.919336s info: Table e3049cea-0e92-443f-93ea-c15fe92635c4: Deleted the table.
+2017-04-11T13:53:47.198998000 84.377633s info: Table bfb2206b-ff6b-4046-9f5f-a83d9d67f747: Starting a new Raft election for term 1.
+2017-04-11T13:53:47.199169000 84.377804s info: Table bfb2206b-ff6b-4046-9f5f-a83d9d67f747: Added replica on this server.
+2017-04-11T13:53:47.207870000 84.386505s info: Table bfb2206b-ff6b-4046-9f5f-a83d9d67f747: This server is Raft leader for term 1. Latest log index is 0.
